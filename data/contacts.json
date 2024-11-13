@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "61a921f6028954d4f0319e6d"
+  },
+  "Contact_id": 1,
+  "additionalInfo": false,
+  "firstName": "Eric",
+  "LastName": "Arthur",
+  "email": "ericvoices08@gmail.com",   
+  "favouriteColor": "Blue",
+  "dateOfBirth": "28 January 1992"
+ },
+ {
+  "_id": {
+    "$oid": "61a921f6028954d4f0319e7d"
+  },
+  "Contact_id": 2,
+  "additionalInfo": false,
+  "firstName": "Abish",
+  "LastName": "Ennuson",
+  "email": "abishennuson@gmail.com",
+  "favouriteColor": "Pink",
+  "dateOfBirth": "1 October 2000"
+ }
+]
