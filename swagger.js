@@ -1,4 +1,4 @@
-// Import swagger-autogen and initialize it
+// Import swagger-autogen and initialize it 
 const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {

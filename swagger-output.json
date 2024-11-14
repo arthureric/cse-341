@@ -35,10 +35,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "firstName": {
-                    "example": "any"
-                  },
-                  "lastName": {
+                  "Name": {
                     "example": "any"
                   },
                   "email": {
@@ -91,10 +88,7 @@
               "schema": {
                 "type": "object",
                 "properties": {
-                  "firstName": {
-                    "example": "any"
-                  },
-                  "lastName": {
+                  "Name": {
                     "example": "any"
                   },
                   "email": {
