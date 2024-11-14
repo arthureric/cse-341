@@ -34,16 +34,15 @@ const getSingle = async (req, res, next) => {
 
 // Create a new contact
 const createContact = async (req, res, next) => {
-    const { firstName, lastName, email, favoriteColor, birthday } = req.body;
+    const { Name, email, favoriteColor, birthday } = req.body;
 
-    if (!firstName || !lastName || !email || !favoriteColor || !birthday) {
+    if (!Name || !email || !favoriteColor || !birthday) {
         return next(createError(400, 'All fields are required'));
     }
 
     try {
         const contact = {
-            firstName,
-            lastName,
+            Name,
             email,
             favoriteColor,
             birthday,
