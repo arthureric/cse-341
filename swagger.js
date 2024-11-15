@@ -6,8 +6,8 @@ const doc = {
     title: 'Contacts API',            // Title for the API documentation
     description: 'API for managing contacts', // Description of the API
   },
-  host: 'localhost:3000',             // API host
-  schemes: ['http'],                  // Scheme (http/https) to use
+  host: 'localhost:3001',             // API host
+  schemes: ['https','http'],          // Scheme (http/https) to use
 };
 
 const outputFile = './swagger-output.json';         // Path to save generated Swagger file

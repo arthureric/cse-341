@@ -30,8 +30,8 @@ app.use((err, req, res, next) => {
     });
 });
 
-// Set port from environment variable or default to 3000
-const port = process.env.PORT || 3000;
+// Set port from environment variable or default to 3001
+const port = process.env.PORT || 3001;
 
 // Initialize MongoDB connection and start the server
 mongodb.initDb((err) => {
